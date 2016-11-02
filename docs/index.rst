@@ -1,0 +1,5 @@
+====================
+operun.colorpicker
+====================
+
+User documentation
