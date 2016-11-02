@@ -1,0 +1,28 @@
+<!-- CSS -->
+<link rel="stylesheet" href="++resource++operun.colorpicker/bootstrap-colorpicker.css">
+
+
+<!-- Form -->
+<div id="cp2" class="input-group colorpicker-component">
+  <input tal:attributes="id string:${view/id};
+                         name view/name;
+                         value view/value;
+                         title view/title;
+                         lang view/lang;
+                         alt view/alt;
+                         accesskey view/accesskey;
+                         onselect view/onselect;
+                         size view/size;
+                         maxlength view/maxlength" type="text" class="form-control" />
+  <span class="input-group-addon"><i></i></span>
+</div>
+
+
+<!-- JS -->
+<script type="text/javascript" src="++resource++operun.colorpicker/bootstrap-colorpicker.js"></script>
+<!-- Run Method -->
+<script>
+  $(function() {
+    $('#cp2').colorpicker();
+  });
+</script>

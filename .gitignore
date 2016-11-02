@@ -4,6 +4,7 @@
 *.mo
 *.py?
 *.swp
+
 # dirs
 bin/
 buildout-cache/
@@ -14,15 +15,17 @@ include/
 lib/
 local/
 parts/
-src/*
 test.plone_addon/
 var/
+
 # files
 lib64
 log.html
 output.xml
 pip-selfcheck.json
+.installed.cfg
 report.html
+
 # excludes
 !.coveragerc
 !.editorconfig
@@ -30,4 +33,10 @@ report.html
 !.gitignore
 !.gitkeep
 !.travis.yml
-!src/plone
+!src/webmontag
+
+# node and grunt
+node_modules/
+package.json
+Gruntfile.js
+temp_resources

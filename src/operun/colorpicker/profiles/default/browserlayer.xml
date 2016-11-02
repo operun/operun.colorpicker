@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layers>
+  <layer
+      name="operun.colorpicker"
+      interface="operun.colorpicker.interfaces.IOperunColorpickerLayer"
+      />
+</layers>
