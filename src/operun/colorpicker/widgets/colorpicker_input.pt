@@ -1,4 +1,5 @@
 <!-- CSS -->
+<link rel="stylesheet" href="++resource++operun.colorpicker/bootstrap.css">
 <link rel="stylesheet" href="++resource++operun.colorpicker/bootstrap-colorpicker.css">
 
 
@@ -19,6 +20,7 @@
 
 
 <!-- JS -->
+<script type="text/javascript" src="++resource++operun.colorpicker/bootstrap.js"></script>
 <script type="text/javascript" src="++resource++operun.colorpicker/bootstrap-colorpicker.js"></script>
 <!-- Run Method -->
 <script>
