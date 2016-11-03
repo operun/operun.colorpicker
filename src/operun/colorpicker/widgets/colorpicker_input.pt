@@ -20,11 +20,12 @@
 
 
 <!-- JS -->
+<script type="text/javascript" src="++resource++operun.colorpicker/jquery.js"></script>
 <script type="text/javascript" src="++resource++operun.colorpicker/bootstrap.js"></script>
 <script type="text/javascript" src="++resource++operun.colorpicker/bootstrap-colorpicker.js"></script>
 <!-- Run Method -->
 <script>
-  $(function() {
+  $(document).ready(function() {
     $('#cp2').colorpicker();
   });
 </script>
