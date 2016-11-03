@@ -10,10 +10,6 @@
 
   <includeDependencies package="."/>
 
-  <!-- Not Needed
-  <include package=".browser" />
-  -->
-
   <include package=".widgets"/>
 
   <genericsetup:registerProfile
@@ -40,6 +36,6 @@
   <include file="behaviors.zcml"/>
 
   <!-- Register Resources -->
-  <browser:resourceDirectory name="operun.colorpicker" directory="resources"/>
+  <browser:resourceDirectory name="operun.colorpicker" directory="widgets/resources"/>
 
 </configure>
