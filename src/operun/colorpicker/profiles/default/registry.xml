@@ -1,11 +1,19 @@
 <registry>
 
-  <records interface='Products.CMFPlone.interfaces.IResourceRegistry' prefix="plone.resources/colorpicker">
+  <records interface='Products.CMFPlone.interfaces.IResourceRegistry' prefix="plone.resources/bootstrap-colorpicker">
     <value key="js">++resource++operun.colorpicker/bootstrap-colorpicker.js</value>
-    <value key="deps">jquery</value>
     <value key="css">
       <element>++resource++operun.colorpicker/bootstrap-colorpicker.css</element>
     </value>
+    <value key="deps">jquery</value>
+  </records>
+
+  <records interface='Products.CMFPlone.interfaces.IResourceRegistry' prefix="plone.resources/colorpicker">
+    <value key="js">++resource++operun.colorpicker/colorpicker-custom.js</value>
+    <value key="css">
+      <element>++resource++operun.colorpicker/colorpicker-custom.less</element>
+    </value>
+    <value key="deps">jquery</value>
   </records>
 
   <records interface='Products.CMFPlone.interfaces.IBundleRegistry' prefix="plone.bundles/colorpicker">
