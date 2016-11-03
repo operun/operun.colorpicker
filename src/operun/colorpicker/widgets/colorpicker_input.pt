@@ -8,4 +8,4 @@
                        onselect view/onselect;
                        size view/size;
                        maxlength view/maxlength" type="text" />
-<span>This is not a widget ¯\_(ツ)_/¯</span>
+<span class="text-success" style="t">This is not a widget ¯\_(ツ)_/¯</span>
