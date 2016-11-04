@@ -2,6 +2,9 @@
       xmlns:tal="http://xml.zope.org/namespaces/tal"
       tal:omit-tag="">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.3.6/css/bootstrap-colorpicker.min.css" />
+
 <!-- Form -->
 <div id="cp2" class="input-group colorpicker-component">
   <input tal:attributes="id string:${view/id};
