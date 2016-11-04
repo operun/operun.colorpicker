@@ -2,14 +2,6 @@
       xmlns:tal="http://xml.zope.org/namespaces/tal"
       tal:omit-tag="">
 
-<script type="text/javascript">
-  (function($) {
-    $().ready(function() {
-      $('#cp2').colorpicker();
-    });
-  })(jQuery);
-</script>
-
 <!-- Form -->
 <div id="cp2" class="input-group colorpicker-component">
   <input tal:attributes="id string:${view/id};
