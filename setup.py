@@ -42,6 +42,9 @@ setup(
         'Products.GenericSetup>=1.8.2',
         'setuptools',
         'z3c.jbot',
+        'plone.app.dexterity',
+        'plone.app.registry',
+        'plone.directives.form',
     ],
     extras_require={
         'test': [

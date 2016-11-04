@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<object name="portal_controlpanel"
+        xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        i18n:domain="operun.colorpicker">
+
+  <configlet title="Colorpicker Settings"
+             action_id="colorpicker.settings"
+             appId="colorpicker"
+             category="Products"
+             condition_expr=""
+             url_expr="string:${portal_url}/@@colorpicker-settings"
+             icon_expr=""
+             visible="True"
+             i18n:attributes="title">
+    <permission>Manage portal</permission>
+  </configlet>
+
+</object>
