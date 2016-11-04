@@ -14,9 +14,9 @@
 
   <genericsetup:registerProfile
     name="default"
-    title="Colorpicker Field"
+    title="Colorpicker for Plone"
     directory="profiles/default"
-    description="Installs a Plone Bootstrap colorpicker package."
+    description="Installs a Plone Bootstrap colorpicker."
     provides="Products.GenericSetup.interfaces.EXTENSION"
     post_handler=".setuphandlers.post_install"
     />
@@ -25,7 +25,7 @@
     name="uninstall"
     title="Colorpicker Field (Uninstall)"
     directory="profiles/uninstall"
-    description="Uninstalls a Plone Bootstrap colorpicker package."
+    description="Uninstalls a Plone Bootstrap colorpicker."
     provides="Products.GenericSetup.interfaces.EXTENSION"
     post_handler=".setuphandlers.uninstall"
     />
