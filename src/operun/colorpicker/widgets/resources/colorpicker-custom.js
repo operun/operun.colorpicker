@@ -10,4 +10,6 @@ require([
 ], function($) {
   'use strict';
 
+  $('#cp2').colorpicker();
+
 });
