@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='operun.colorpicker',
-    version='1.0a1',
+    version='1.0.1',
     description="A Plone Bootstrap color picker package.",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers

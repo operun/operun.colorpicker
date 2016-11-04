@@ -14,18 +14,18 @@
 
   <genericsetup:registerProfile
     name="default"
-    title="operun.colorpicker"
+    title="Colorpicker Field"
     directory="profiles/default"
-    description="Installs the operun.colorpicker add-on."
+    description="Installs a Plone Bootstrap colorpicker package."
     provides="Products.GenericSetup.interfaces.EXTENSION"
     post_handler=".setuphandlers.post_install"
     />
 
   <genericsetup:registerProfile
     name="uninstall"
-    title="operun.colorpicker (uninstall)"
+    title="Colorpicker Field (Uninstall)"
     directory="profiles/uninstall"
-    description="Uninstalls the operun.colorpicker add-on."
+    description="Uninstalls a Plone Bootstrap colorpicker package."
     provides="Products.GenericSetup.interfaces.EXTENSION"
     post_handler=".setuphandlers.uninstall"
     />
